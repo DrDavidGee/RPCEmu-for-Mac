@@ -4,7 +4,7 @@ This repository currently contains only one file, **main_window.cpp**.
 
 You should obtain RPCEmuBeta for Mac from https://github.com/riscosports/rpcemubeta.git
 
-Then replace **rpcemubeta/src/qt5/main_window.cpp** with the main_window.cpp found in this repository.
+Then replace **rpcemubeta/src/qt5/main_window.cpp** with the mai_window.cpp found in this repository.
 
 In other words, follow these instructions (based on https://www.riscosopen.org/forum/forums/5/topics/20192?limit=25&page=6#posts-163103):
 
@@ -21,7 +21,7 @@ In other words, follow these instructions (based on https://www.riscosopen.org/f
     cp ~/Downloads/main_window.cpp ~/rpcemubeta/src/qt5/main_window.cpp
 
 5. Build the *interpreter* version of RPCEmu (it's the default):
-   
+
     cd ~/rpcemubeta/src/qt5
     qmake rpcemu.pro
     make
