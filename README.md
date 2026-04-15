@@ -11,19 +11,25 @@ In other words, follow these instructions (based on https://www.riscosopen.org/f
 1. Download main_window.cpp form this repository into your Downloads directory.
 2. Install version 5 of Qt using Homebrew:
 
+<code>
     brew install qt@5
     cd ~
     git clone https://github.com/riscosports/rpcemubeta.git
+</code>
 
 4. Replace the main_window.cpp found in the cloned rpcemubeta with the one in **Downloads**:
 
+<code>
     rm ~/rpcemubeta/src/qt5/main_window.cpp
     cp ~/Downloads/main_window.cpp ~/rpcemubeta/src/qt5/main_window.cpp
+</code>
 
 5. Build the *interpreter* version of RPCEmu (it's the default):
 
-    cd ~/rpcemubeta/src/qt5
-    qmake rpcemu.pro
-    make
+<code>
+cd ~/rpcemubeta/src/qt5
+qmake rpcemu.pro
+make
+</code>
 
 See also the later threds in the link given above.
